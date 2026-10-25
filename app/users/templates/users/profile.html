@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="container py-3 {% if theme == 'dark' %}bg-dark text-white p-4 rounded{% endif %}">
+    
+    <div class="d-flex justify-content-end mb-3">
+        <span class="me-2 align-self-center">Тема:</span>
+        <a href="{{ url_for('users.change_theme', theme_name='light') }}" class="btn btn-sm btn-outline-secondary me-1">Світла</a>
+        <a href="{{ url_for('users.change_theme', theme_name='dark') }}" class="btn btn-sm btn-outline-dark">Темна</a>
+    </div>
+
+    <div class="p-4 mb-4 bg-primary text-white rounded d-flex justify-content-between align-items-center">
+        <div>
+            <h2 class="mb-1">Ласкаво просимо до сторінки <span class="badge bg-light text-primary">👥 {{ username }}!</span></h2>
+            <p class="mb-0 text-white-50">Тут ви можете отримати інформацію та вийти з системи.</p>
+        </div>
+        <a href="{{ url_for('users.logout') }}" class="btn btn-danger btn-sm px-3">Вийти</a>
+    </div>
+
+    <div class="card p-3 mb-4 shadow-sm {% if theme == 'dark' %}bg-secondary text-white{% endif %}">
+        <h5 class="fw-bold">Додати кукі:</h5>
+        <form action="{{ url_for('users.add_cookie') }}" method="POST" class="row g-2 mt-1">
+            <div class="col-md-4">
+                <input type="text" name="key" class="form-control" placeholder="Ключ кукі" required>
+            </div>
+            <div class="col-md-4">
+                <input type="text" name="value" class="form-control" placeholder="Значення кукі" required>
+            </div>
+            <div class="col-md-3">
+                <input type="number" name="max_age" class="form-control" placeholder="Термін дії (сек)">
+            </div>
+            <div class="col-md-1">
+                <button type="submit" class="btn btn-success w-100">Додати</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="card p-3 mb-4 shadow-sm {% if theme == 'dark' %}bg-secondary text-white{% endif %}">
+        <h5 class="fw-bold">Видалити кукі за ключем:</h5>
+        <form action="{{ url_for('users.delete_cookie') }}" method="POST" class="row g-2 mt-1">
+            <div class="col-md-9">
+                <input type="text" name="key" class="form-control" placeholder="Ключ кукі для видалення" required>
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-warning text-white w-100">Видалити кукі за ключем</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="card p-3 mb-4 shadow-sm {% if theme == 'dark' %}bg-secondary text-white{% endif %}">
+        <h5 class="fw-bold">Видалити всі кукі:</h5>
+        <form action="{{ url_for('users.delete_all_cookies') }}" method="POST" class="mt-1">
+            <button type="submit" class="btn btn-danger">Видалити всі кукі</button>
+        </form>
+    </div>
+
+    <div class="card p-3 shadow-sm {% if theme == 'dark' %}bg-secondary text-white{% endif %}">
+        <h5 class="fw-bold mb-3">Список всіх кукі:</h5>
+        <table class="table table-striped table-bordered {% if theme == 'dark' %}table-dark{% endif %}">
+            <thead>
+                <tr>
+                    <th>Ключ</th>
+                    <th>Значення</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for key, value in cookies.items() %}
+                <tr>
+                    <td><code>{{ key }}</code></td>
+                    <td><code>{{ value }}</code></td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="2" class="text-center text-muted">Немає збережених кукі</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+{% endblock %}

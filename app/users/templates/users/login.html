@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+        <h2 class="text-center mb-4 text-muted">Login</h2>
+        <form action="{{ url_for('users.login') }}" method="POST" class="card card-body shadow-sm">
+            <div class="mb-3">
+                <label for="username" class="form-label text-muted small">User name</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label text-muted small">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-info text-white w-100 py-2 mt-2">Sign in</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
