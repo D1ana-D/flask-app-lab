@@ -7,7 +7,6 @@ from werkzeug.utils import secure_filename
 from . import products_bp
 from .forms import ProductForm
 
-# Ініціалізація TinyDB у файлі data/products.json
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'data')
 os.makedirs(DATA_DIR, exist_ok=True)
 db_path = os.path.join(DATA_DIR, 'products.json')
@@ -77,7 +76,8 @@ def edit_product(product_id):
 
     form = ProductForm(data=product)
     if form.validate_on_submit():
-        image_path = save_image(form.image.data) or product.get('image')
+        new_image = save_image(form.image.data)
+        image_path = new_image if new_image else product.get('image')
         
         updated_data = {
             'name': form.name.data,

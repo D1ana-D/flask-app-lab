@@ -1,0 +1,271 @@
+2026-11-11 15:31:52,941 INFO: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-11 15:31:52,941 INFO: Press CTRL+C to quit
+2026-11-11 15:31:52,943 INFO:  * Restarting with stat
+2026-11-11 15:31:53,485 WARNING:  * Debugger is active!
+2026-11-11 15:31:53,488 INFO:  * Debugger PIN: 174-999-226
+2026-11-11 15:32:13,777 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:13] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 15:32:13,924 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:13] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:21,996 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:21] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:32:22,014 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:22] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:22,029 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:22] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:32:22,078 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:22] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:23,360 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:23] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 15:32:23,383 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:23,435 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:27,878 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:27] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:32:27,899 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:27] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:27,944 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:27] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:31,975 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:31] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:32:31,998 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:31] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:32,052 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:32] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:33,269 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:33] "GET /users/profile HTTP/1.1" 302 -
+2026-11-11 15:32:33,286 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:33] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:32:33,301 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:33] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:33,351 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:33] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:37,926 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:37] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:32:37,937 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:37] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:37,975 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:37] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:39,346 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:39] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 15:32:39,372 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:39] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:39,419 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:39] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:40,499 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:40] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:32:40,523 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:40] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:40,528 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:40] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:32:40,559 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:40] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:41,848 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:41] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:32:41,870 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:41] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:41,872 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:41] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:32:41,927 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:41] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:43,140 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:43] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:32:43,165 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:43] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:43,170 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:43] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:32:43,224 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:43] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:47,572 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:47] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:32:47,593 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:47] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:47,601 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:47] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:32:47,656 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:47] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:54,235 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:54] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:32:54,276 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-11-11 15:32:54,279 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:54] "GET /static/images/photo.jpg HTTP/1.1" 200 -
+2026-11-11 15:32:54,515 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:54] "GET /favicon.ico HTTP/1.1" 404 -
+2026-11-11 15:32:56,339 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:56] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:32:56,375 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:56] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:56,377 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:56] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:32:57,765 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:57] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:32:57,835 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:57] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:32:57,841 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:57] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:32:59,477 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:59] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 15:32:59,518 INFO: 127.0.0.1 - - [11/Nov/2026 15:32:59] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:33:03,314 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:03] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:33:03,366 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:03] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:33:05,867 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:05] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:33:05,917 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:05] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:33:07,414 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:07] "GET /users/profile HTTP/1.1" 302 -
+2026-11-11 15:33:07,425 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:07] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:33:07,498 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:07] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:33:58,686 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:58] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:33:58,746 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:58] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:33:58,751 INFO: 127.0.0.1 - - [11/Nov/2026 15:33:58] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:34:01,870 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:01] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:34:01,932 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:01] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:34:01,938 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:01] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:34:02,913 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:02] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 15:34:02,945 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:02] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:34:06,183 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:06] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:34:06,216 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:06] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:34:07,057 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:07] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:34:07,101 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:07] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:34:08,579 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:08] "GET /users/profile HTTP/1.1" 302 -
+2026-11-11 15:34:08,585 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:08] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:34:08,627 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:08] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:34:09,407 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:09] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:34:09,466 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:09] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:34:10,938 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:10] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:34:10,977 INFO: 127.0.0.1 - - [11/Nov/2026 15:34:10] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:31,198 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:31] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:43:31,234 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:31] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:34,067 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:34] "GET /products/product/1 HTTP/1.1" 200 -
+2026-11-11 15:43:34,120 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:34] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:35,469 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:35] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:43:35,522 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:36,609 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:36] "GET /products/product/2 HTTP/1.1" 200 -
+2026-11-11 15:43:36,683 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:36] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:38,141 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:38] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:43:38,206 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:38] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:39,205 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:39] "GET /products/product/3 HTTP/1.1" 200 -
+2026-11-11 15:43:39,282 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:39] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:40,426 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:40] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:43:40,474 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:40] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:41,468 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:41] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:43:41,533 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:41] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:41,536 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:41] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:43:42,719 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:42] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 15:43:42,756 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:42] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:43:59,421 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:59] "POST /contacts HTTP/1.1" 200 -
+2026-11-11 15:43:59,474 INFO: 127.0.0.1 - - [11/Nov/2026 15:43:59] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:44:28,669 INFO: Contact Form Submission: Name=Діана, Email=0688654910d@gmail.com, Phone=+380688654910, Subject=support, Message=привіт
+2026-11-11 15:44:28,669 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:28] "POST /contacts HTTP/1.1" 302 -
+2026-11-11 15:44:28,678 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:28] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 15:44:28,717 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:28] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:44:33,659 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:33] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 15:44:33,710 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:33] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:44:34,938 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:34] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:44:35,004 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:44:37,048 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:37] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:44:37,111 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:37] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:44:43,161 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:43] "POST /users/login HTTP/1.1" 302 -
+2026-11-11 15:44:43,175 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:43] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:44:43,246 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:43] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:44:46,232 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:46] "GET /users/profile HTTP/1.1" 302 -
+2026-11-11 15:44:46,246 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:46] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:44:46,312 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:46] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:44:53,616 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:53] "POST /users/login HTTP/1.1" 302 -
+2026-11-11 15:44:53,628 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:53] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:44:53,690 INFO: 127.0.0.1 - - [11/Nov/2026 15:44:53] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:48:53,119 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:53] "GET /users/profile HTTP/1.1" 302 -
+2026-11-11 15:48:53,136 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:53] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:48:53,225 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:53] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:48:54,336 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:54] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 15:48:54,410 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:54] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:48:55,447 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:55] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:48:55,547 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:55] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:48:56,992 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:56] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 15:48:57,037 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:57] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:48:58,435 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:58] "GET /resume HTTP/1.1" 200 -
+2026-11-11 15:48:58,491 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:58] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 15:48:58,494 INFO: 127.0.0.1 - - [11/Nov/2026 15:48:58] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 15:53:03,877 INFO: 127.0.0.1 - - [11/Nov/2026 15:53:03] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 15:53:03,940 INFO: 127.0.0.1 - - [11/Nov/2026 15:53:03] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:12:50,261 INFO:  * Detected change in 'D:\\flask_app_datsio\\app\\forms.py', reloading
+2026-11-11 16:12:50,393 INFO:  * Restarting with stat
+2026-11-11 16:12:51,187 WARNING:  * Debugger is active!
+2026-11-11 16:12:51,192 INFO:  * Debugger PIN: 174-999-226
+2026-11-11 16:13:18,593 INFO:  * Detected change in 'D:\\flask_app_datsio\\app\\products\\forms.py', reloading
+2026-11-11 16:13:18,680 INFO:  * Restarting with stat
+2026-11-11 16:13:19,636 WARNING:  * Debugger is active!
+2026-11-11 16:13:19,641 INFO:  * Debugger PIN: 174-999-226
+2026-11-11 16:13:59,262 INFO:  * Detected change in 'D:\\flask_app_datsio\\app\\views.py', reloading
+2026-11-11 16:13:59,339 INFO:  * Restarting with stat
+2026-11-11 16:14:00,108 WARNING:  * Debugger is active!
+2026-11-11 16:14:00,112 INFO:  * Debugger PIN: 174-999-226
+2026-11-11 16:14:18,390 INFO:  * Detected change in 'D:\\flask_app_datsio\\app\\products\\__init__.py', reloading
+2026-11-11 16:14:18,520 INFO:  * Restarting with stat
+2026-11-11 16:14:19,465 WARNING:  * Debugger is active!
+2026-11-11 16:14:19,471 INFO:  * Debugger PIN: 174-999-226
+2026-11-11 16:14:43,905 INFO:  * Detected change in 'D:\\flask_app_datsio\\app\\products\\views.py', reloading
+2026-11-11 16:14:43,990 INFO:  * Restarting with stat
+2026-11-11 16:14:45,085 WARNING:  * Debugger is active!
+2026-11-11 16:14:45,091 INFO:  * Debugger PIN: 174-999-226
+2026-11-11 16:19:42,819 INFO:  * Detected change in 'D:\\flask_app_datsio\\tests\\test_products_bp.py', reloading
+2026-11-11 16:19:42,916 INFO:  * Restarting with stat
+2026-11-11 16:19:43,808 WARNING:  * Debugger is active!
+2026-11-11 16:19:43,823 INFO:  * Debugger PIN: 174-999-226
+2026-11-11 16:20:50,342 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:50] "GET /resume HTTP/1.1" 200 -
+2026-11-11 16:20:50,758 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:50] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:20:50,769 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:50] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 16:20:52,339 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:52] "GET /resume HTTP/1.1" 200 -
+2026-11-11 16:20:52,408 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:52] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:20:52,418 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:52] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 16:20:53,794 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:53] "GET /resume HTTP/1.1" 200 -
+2026-11-11 16:20:53,859 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:53] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:20:53,861 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:53] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 16:20:54,910 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:54] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 16:20:54,985 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:54] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:20:57,630 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:57] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 16:20:57,685 INFO: 127.0.0.1 - - [11/Nov/2026 16:20:57] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:21:01,215 INFO: 127.0.0.1 - - [11/Nov/2026 16:21:01] "GET /products/product/add HTTP/1.1" 200 -
+2026-11-11 16:21:01,267 INFO: 127.0.0.1 - - [11/Nov/2026 16:21:01] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:23:49,591 INFO: 127.0.0.1 - - [11/Nov/2026 16:23:49] "POST /products/product/add HTTP/1.1" 302 -
+2026-11-11 16:23:49,612 INFO: 127.0.0.1 - - [11/Nov/2026 16:23:49] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 16:23:49,692 INFO: 127.0.0.1 - - [11/Nov/2026 16:23:49] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:23:49,723 INFO: 127.0.0.1 - - [11/Nov/2026 16:23:49] "GET /products/static/uploads/bdd329d021c842ea8ec3954996b3d963_photo_2026-04-30_13-06-38.jpg HTTP/1.1" 200 -
+2026-11-11 16:23:55,281 INFO: 127.0.0.1 - - [11/Nov/2026 16:23:55] "GET /products/product/4 HTTP/1.1" 200 -
+2026-11-11 16:23:55,345 INFO: 127.0.0.1 - - [11/Nov/2026 16:23:55] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:23:55,353 INFO: 127.0.0.1 - - [11/Nov/2026 16:23:55] "GET /products/static/uploads/bdd329d021c842ea8ec3954996b3d963_photo_2026-04-30_13-06-38.jpg HTTP/1.1" 304 -
+2026-11-11 16:24:00,316 INFO: 127.0.0.1 - - [11/Nov/2026 16:24:00] "GET /products/product/4/edit HTTP/1.1" 200 -
+2026-11-11 16:24:00,381 INFO: 127.0.0.1 - - [11/Nov/2026 16:24:00] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:24:00,383 INFO: 127.0.0.1 - - [11/Nov/2026 16:24:00] "GET /products/static/uploads/bdd329d021c842ea8ec3954996b3d963_photo_2026-04-30_13-06-38.jpg HTTP/1.1" 304 -
+2026-11-11 16:24:13,338 INFO: 127.0.0.1 - - [11/Nov/2026 16:24:13] "GET /products/product/1 HTTP/1.1" 200 -
+2026-11-11 16:24:13,404 INFO: 127.0.0.1 - - [11/Nov/2026 16:24:13] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:35:55,570 INFO: 127.0.0.1 - - [11/Nov/2026 16:35:55] "GET /products/product/2 HTTP/1.1" 200 -
+2026-11-11 16:35:55,644 INFO: 127.0.0.1 - - [11/Nov/2026 16:35:55] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:37:41,030 INFO: 127.0.0.1 - - [11/Nov/2026 16:37:41] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 16:37:42,417 INFO: 127.0.0.1 - - [11/Nov/2026 16:37:42] "GET /products/product/3 HTTP/1.1" 200 -
+2026-11-11 16:37:42,459 INFO: 127.0.0.1 - - [11/Nov/2026 16:37:42] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:15,583 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:15] "GET /products/product/3 HTTP/1.1" 200 -
+2026-11-11 16:40:15,639 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:15,645 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:15] "GET /products/static/uploads/pc.jpg HTTP/1.1" 200 -
+2026-11-11 16:40:17,698 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:17] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 16:40:17,778 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:17] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:17,787 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:17] "GET /products/static/uploads/laptop.jpg HTTP/1.1" 200 -
+2026-11-11 16:40:17,788 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:17] "GET /products/static/uploads/phone.jpg HTTP/1.1" 200 -
+2026-11-11 16:40:17,801 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:17] "GET /products/static/uploads/pc.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:27,848 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:27] "GET /products/product/1 HTTP/1.1" 200 -
+2026-11-11 16:40:27,912 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:27] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:27,915 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:27] "GET /products/static/uploads/laptop.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:29,699 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:29] "GET /products/product/1/edit HTTP/1.1" 200 -
+2026-11-11 16:40:29,765 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:29] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:29,768 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:29] "GET /products/static/uploads/laptop.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:33,263 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:33] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 16:40:33,331 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:33] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:33,338 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:33] "GET /products/static/uploads/laptop.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:33,349 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:33] "GET /products/static/uploads/phone.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:33,357 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:33] "GET /products/static/uploads/pc.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:41,388 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:41] "GET /resume HTTP/1.1" 200 -
+2026-11-11 16:40:41,434 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:41] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:41,437 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:41] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:42,335 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:42] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 16:40:42,383 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:42] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:43,732 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:43] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 16:40:43,809 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:43] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:43,824 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:43] "GET /products/static/uploads/laptop.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:43,825 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:43] "GET /products/static/uploads/phone.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:43,829 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:43] "GET /products/static/uploads/pc.jpg HTTP/1.1" 304 -
+2026-11-11 16:40:44,901 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:44] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 16:40:44,958 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:44] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:46,058 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:46] "GET /users/profile HTTP/1.1" 302 -
+2026-11-11 16:40:46,071 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:46] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 16:40:46,184 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:46] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:40:50,821 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:50] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 16:40:50,878 INFO: 127.0.0.1 - - [11/Nov/2026 16:40:50] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:42:15,487 INFO: 127.0.0.1 - - [11/Nov/2026 16:42:15] "POST /users/login HTTP/1.1" 302 -
+2026-11-11 16:42:15,516 INFO: 127.0.0.1 - - [11/Nov/2026 16:42:15] "GET /users/profile HTTP/1.1" 200 -
+2026-11-11 16:42:15,601 INFO: 127.0.0.1 - - [11/Nov/2026 16:42:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:53:28,013 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:28] "POST /users/cookie/add HTTP/1.1" 302 -
+2026-11-11 16:53:28,030 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:28] "GET /users/profile HTTP/1.1" 200 -
+2026-11-11 16:53:28,126 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:28] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:53:47,617 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:47] "POST /users/cookie/delete HTTP/1.1" 302 -
+2026-11-11 16:53:47,643 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:47] "GET /users/profile HTTP/1.1" 200 -
+2026-11-11 16:53:47,728 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:47] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:53:53,104 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:53] "GET /users/change_theme/light HTTP/1.1" 302 -
+2026-11-11 16:53:53,116 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:53] "GET /users/profile HTTP/1.1" 200 -
+2026-11-11 16:53:53,200 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:53] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:53:54,496 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:54] "GET /users/change_theme/dark HTTP/1.1" 302 -
+2026-11-11 16:53:54,514 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:54] "GET /users/profile HTTP/1.1" 200 -
+2026-11-11 16:53:54,614 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:54] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:53:58,879 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:58] "GET /users/change_theme/dark HTTP/1.1" 302 -
+2026-11-11 16:53:58,894 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:58] "GET /users/profile HTTP/1.1" 200 -
+2026-11-11 16:53:58,978 INFO: 127.0.0.1 - - [11/Nov/2026 16:53:58] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:54:00,674 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:00] "GET /users/change_theme/light HTTP/1.1" 302 -
+2026-11-11 16:54:00,690 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:00] "GET /users/profile HTTP/1.1" 200 -
+2026-11-11 16:54:00,776 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:00] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:54:17,784 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:17] "POST /users/cookie/delete HTTP/1.1" 302 -
+2026-11-11 16:54:17,797 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:17] "GET /users/profile HTTP/1.1" 200 -
+2026-11-11 16:54:17,879 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:17] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:54:23,793 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:23] "GET /contacts HTTP/1.1" 200 -
+2026-11-11 16:54:23,857 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:54:24,840 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:24] "GET /products/product HTTP/1.1" 200 -
+2026-11-11 16:54:24,913 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:24] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:54:24,921 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:24] "GET /products/static/uploads/laptop.jpg HTTP/1.1" 304 -
+2026-11-11 16:54:24,932 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:24] "GET /products/static/uploads/phone.jpg HTTP/1.1" 304 -
+2026-11-11 16:54:24,934 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:24] "GET /products/static/uploads/pc.jpg HTTP/1.1" 304 -
+2026-11-11 16:54:25,646 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:25] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 16:54:25,708 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:25] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:54:27,655 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:27] "GET /users/profile HTTP/1.1" 200 -
+2026-11-11 16:54:27,732 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:27] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:54:29,324 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:29] "GET /users/login HTTP/1.1" 200 -
+2026-11-11 16:54:29,376 INFO: 127.0.0.1 - - [11/Nov/2026 16:54:29] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:55:35,911 INFO: 127.0.0.1 - - [11/Nov/2026 16:55:35] "GET /resume HTTP/1.1" 200 -
+2026-11-11 16:55:35,967 INFO: 127.0.0.1 - - [11/Nov/2026 16:55:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-11 16:55:35,972 INFO: 127.0.0.1 - - [11/Nov/2026 16:55:35] "GET /static/images/photo.jpg HTTP/1.1" 304 -

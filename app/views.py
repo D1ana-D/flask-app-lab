@@ -25,7 +25,6 @@ def contacts():
         message = form.message.data
 
         logging.info(f"Contact Form Submission: Name={name}, Email={email}, Phone={phone}, Subject={subject}, Message={message}")
-        
         flash("Ваше повідомлення успішно надіслано та збережено!", "success")
         return redirect(url_for('contacts'))
         

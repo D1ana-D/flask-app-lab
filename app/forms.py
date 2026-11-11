@@ -20,10 +20,8 @@ class ContactForm(FlaskForm):
         ('support', 'Технічна підтримка'),
         ('cooperation', 'Співпраця')
     ], validators=[DataRequired(message="Оберіть тему")])
-    
     message = TextAreaField('Message', validators=[
         DataRequired(message="Обов'язкове поле"),
         Length(max=500, message="Максимальна довжина повідомлення — 500 символів")
     ])
-    
     submit = SubmitField('Send Message')

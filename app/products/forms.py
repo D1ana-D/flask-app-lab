@@ -21,7 +21,6 @@ class ProductForm(FlaskForm):
         ('Smartphones', 'Смартфони'),
         ('Accessories', 'Аксесуари')
     ], validators=[DataRequired(message="Оберіть категорію")])
-    
     quantity = IntegerField('Кількість', validators=[
         DataRequired(message="Обов'язкове поле"),
         NumberRange(min=0, message="Кількість не може бути від'ємною")

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% from "includes/_render_field.html" import render_field %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <h2>{{ title }} #{{ product.id }}</h2>
+        <form action="{{ url_for('products.edit_product', product_id=product.id) }}" method="POST" enctype="multipart/form-data" novalidate class="card p-4 shadow-sm mt-3">
+            {{ form.hidden_tag() }}
+            
+            {{ render_field(form.name) }}
+            {{ render_field(form.category) }}
+            {{ render_field(form.price, step="0.01") }}
+            {{ render_field(form.quantity) }}
+            
+            {% if product.image %}
+                <div class="mb-3">
+                    <label class="form-label d-block">Поточне зображення:</label>
+                    <img src="{{ url_for('products.static', filename=product.image) }}" style="max-height: 150px;" class="rounded img-thumbnail mb-2">
+                </div>
+            {% endif %}
+            {{ render_field(form.image) }}
+            {{ render_field(form.content, rows=5) }}
+            
+            <div class="d-flex justify-content-between mt-3">
+                <a href="{{ url_for('products.detail_product', product_id=product.id) }}" class="btn btn-secondary">Скасувати</a>
+                {{ form.submit(class="btn btn-warning text-white px-4") }}
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
